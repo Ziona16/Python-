@@ -1,4 +1,5 @@
 # Python-
+
 #importing multiple images
 
 import os 
@@ -11,4 +12,5 @@ for i in data1
   im=image.open(dataset1 + "\\" + i)
   gray=im.convert("L")
   gray.save(path2 + "\\" + i)
-  
+ 
+I am a beginner in github
