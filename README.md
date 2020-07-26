@@ -1,9 +1,14 @@
 # Python-
-I am a beginner in github
+#importing multiple images
+
+import os 
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as np
-import cv2
-import tensorflow as tf
-from tensorflow import keras
-from keras.layer import dense
+path1="Directory"
+path2="Directory"
+data1=os.listdir(path1)
+
+for i in data1
+  im=image.open(dataset1 + "\\" + i)
+  gray=im.convert("L")
+  gray.save(path2 + "\\" + i)
+  
